@@ -1,0 +1,10 @@
+Criar diretório
+
+Criar index.js
+
+npm init -y
+
+npm i express
+
+Alterar em "package.json" 
+    type: "module"
