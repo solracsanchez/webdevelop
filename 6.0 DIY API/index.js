@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //1. GET a random joke
 
+teste
 //2. GET a specific joke
 
 //3. GET a jokes by filtering on the joke type
