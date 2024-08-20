@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
 
 app.post("/submit", (req, res) => {
   const numLetters = req.body["fName"].length + req.body["lName"].length;
+  console.log(numLetters);
   res.render("solution.ejs", { numberOfLetters: numLetters });
 });
 
